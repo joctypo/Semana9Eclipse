@@ -196,7 +196,7 @@ public class Main extends PApplet{
 							 mensaje = "Listo:pedido"+(i+1);
 							 System.out.println(mensaje);
 							 pedido.remove(i);
-							
+							 contador-=1;
 							}
 							}
 							DatagramPacket packet = new DatagramPacket(
